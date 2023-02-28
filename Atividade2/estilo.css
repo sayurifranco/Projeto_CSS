@@ -1,0 +1,39 @@
+.cabeçalho {
+    width: 100vw;
+    height: 100vh;
+    background: #ebfaf9;
+    font-family: Tilt Warp;
+    text-decoration: none;
+    list-style: none;
+    padding: center;
+}
+
+h1 {
+    display: inline-block;
+}
+
+ul {
+    display:inline-block;
+    text-align: right;
+}
+    
+
+li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    justify-content: center;
+}
+
+.login-header{
+    color:#5294F9;
+}
+
+
+
