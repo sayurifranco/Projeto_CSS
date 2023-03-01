@@ -1,0 +1,44 @@
+* div {
+    padding: 30px;
+}
+
+
+.container {
+    display: flex;
+    background-color: gold;
+    justify-content:end;
+    align-self: flex-end;
+    height: 60vh;
+}
+
+.child {
+    margin: 5px;
+    width: 50px;
+    background-color: blue;
+    color: antiquewhite;
+
+}
+
+.item-1 {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.item-1 div {
+    color: black;
+    margin-bottom: 10px;
+    height: 100px;
+    background-color: antiquewhite;
+    
+}
+
+.item-2 {
+    height: 200px;
+    flex-grow: 2;
+}
+
+.item-3 {
+    flex-grow: 1;
+}
